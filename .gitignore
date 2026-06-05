@@ -1,0 +1,20 @@
+# v0 runtime files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+instrumentation-client.js
+instrumentation-client.ts
+
+# Common ignores
+node_modules/
+.next/
+.env*.local
+.DS_Store
+
+# Backend Python & IDE
+backend/__pycache__/
+backend/venv/
+backend/.env
+backend/.idea/
+backend/*.pt
+frontend/.vscode/
